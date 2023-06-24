@@ -1,11 +1,11 @@
 This is a macaque angiography dataset obtained from the Brainnetome Center, Chinese Academy of Sciences Institute of Automation.
-Description: This dataset set is composed of 8 TOF-MRA subjects, of which 4 are scanned with 3 Tesla siemens machine and other 4 are scanned with 7 Tesla siemens machine.
+This dataset set is composed of 8 TOF-MRA scans, of which 4 are scanned with 3 Tesla Siemens machine and other 4 are scanned with 7 Tesla Siemens machine.
 
 Please cite the following reference if you use this dataset:
 
 Cui Yue, et al. "FFCM-MRF: An accurate and generalizable cerebrovascular segmentation pipeline on TOF-MRA".
 
-Here is an overview of the dataset organization: every original folder (i.e. non-derivative) contains the TOF-MRA and the T1w volume of the subjects. Instead, the "derivatives" folder contains 2 sub-folders:
+every original folder (i.e. non-derivative) contains the TOF-MRA and the T1w volume of the subjects. Instead, the "derivatives" folder contains 2 sub-folders:
 
 1) "manual_masks": It contains the skull-stripped TOF-MRA volume for each subject.
 2) "N4_bias_field_corrected": for every subject, it contains the corresponding N4-bias-field-corrected skull-stripped TOF-MRA volume using ANTS.
