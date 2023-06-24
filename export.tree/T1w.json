@@ -1,0 +1,18 @@
+{
+	"3T": {
+		"RepetitionTime": 2.200,
+		"EchoTime": 0.00284,
+		"FlipAngle": 8,
+		"Manufacturer": "SIEMENS",
+		"ManufacturersModelName": "Prisma_fit",
+		"MagneticFieldStrength": 3
+	},
+	"7T": {
+		"RepetitionTime": 2.200,
+		"EchoTime": 0.00229,
+		"FlipAngle": 7,
+		"Manufacturer": "SIEMENS",
+		"ManufacturersModelName": "Investigational_Device_7T",
+		"MagneticFieldStrength": 7
+	}
+}
