@@ -1,0 +1,26 @@
+{
+  "participant_id": {
+    	"LongName": "Participant ID",
+    	"Description": "Id of the participant"   
+  },
+  "exam_date": {
+    "LongName": "Date of exam",
+    "Description": "Date of the TOF-MRA exam"
+  },
+  "group": {
+    "LongName": "Participant group",
+    "Description": "Distinction of participants healthy condition",
+    "Levels": {
+      "control": "Healthy participants",
+      "patient": "Unhealthy participants"
+    }
+  },
+  "field_strength": {
+    "LongName":"Magnetic filed strength",
+    "Description":"Magnetic filed strength for MRA scan",
+    "Levels":{
+      "3T": "3 Tesla",
+      "7T": "7 Tesla"
+    }
+  }
+}
